@@ -34,7 +34,6 @@ p {
 @media (max-width: 800px) {
   #grid {
     display: block;
-    grid-template-columns: 150px 1fr;
   }
 
   #grid ol {
