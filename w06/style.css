@@ -27,6 +27,10 @@ img {
   margin-right: 10px;
 }
 
+p {
+  padding: 10px;
+}
+
 @media (max-width: 800px) {
   #grid {
     display: block;
