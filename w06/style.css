@@ -40,4 +40,8 @@ img {
   h1 {
     border-bottom: none;
   }
+
+  img {
+    float: none;
+  }
 }
