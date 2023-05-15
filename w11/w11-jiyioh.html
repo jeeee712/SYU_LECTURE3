@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>피자</title>
+  </head>
+  <body>
+    <h1>피자헛</h1>
+    <h2>피자</h2>
+    <h3>인기 메뉴</h3>
+    <ul>
+      <script>
+        const nameList = [
+          "토핑킹&수퍼슈프림",
+          "립스테이크&쉬림프",
+          "립스테이크",
+          "돈마호크",
+          "수퍼슈프림",
+          "직화불고기",
+          "베이컨포테이토",
+          "LA BBQ불고기",
+          "콤비네이션",
+          "페퍼로니",
+        ];
+        const imgList = [
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1950_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1951_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1629_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1740_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ0008_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ0014_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ0007_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ0007_RPEG0039_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1894_RPEG0037_RPDO0003_l.png",
+          "https://akamai.pizzahut.co.kr/2020pizzahut-prod/public/img/menu/RPPZ1890_RPEG0037_RPDO0003_l.png",
+        ];
+
+        let i = 0;
+
+        while (i < nameList.length) {
+          document.write("<li>" + nameList[i] + "</li>");
+          document.write(
+            '<img src="' + imgList[i] + '" alt="' + nameList[i] + '">'
+          );
+          i += 1;
+        }
+      </script>
+    </ul>
+  </body>
+</html>
