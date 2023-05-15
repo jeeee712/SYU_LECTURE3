@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>포메라니안</title>
+</head>
+
+<body>
+    <section>
+        <input id="night_day" type="button" value="night" onclick="
+            let target = document.querySelector('body');
+            if(this.value == 'night') {
+                target.style.backgroundColor='black';
+                target.style.color = 'white';
+                this.value='day';
+            } else {
+                target.style.backgroundColor = 'white';
+                target.style.color='black';
+                this.value = 'night';
+            }
+            ">
+        <input id='bigger' type="button" value="big" onclick="
+            let bigger = document.querySelector('#bigger');
+            if(this.value == 'big') {
+                document.querySelector('body').style.fontSize='20px';
+                this.value = 'normal'
+            } else {
+                document.querySelector('body').style.fontSize='15px';
+                this.value='big';
+            }
+        " >
+        <h1>포메라니안</h1>
+        <div id="grid">
+            <ol>
+                <li><a href="./1.html">역사</a></li>
+                <li><a href="./2.html">외모</a></li>
+                <li><a href="./3.html">성격</a></li>
+                <li><a href="./4.html">인기와 가격</a></li>
+            </ol>
+            <div>
+                <p>
+                    <span style="font-style: italic">Pomeranian </span><br /><br />
+                    개의 품종 중 하나. 원산지는 독일이며 전 세계적으로 사랑받는
+                    반려견으로서 대중적으로 특히 유명한 견종이다. 스피츠 계열에 속하는
+                    견종이며, 원래 스피츠와 사모예드에서 파생되었기 때문에
+                    츠버그스피츠라 불리기도 한다.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
