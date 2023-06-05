@@ -32,7 +32,8 @@ p {
   padding: 10px;
 }
 
-a {
+h1 > a,
+li > a {
   text-decoration: none;
 }
 
