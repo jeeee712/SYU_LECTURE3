@@ -32,6 +32,10 @@ p {
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   #grid {
     display: block;
